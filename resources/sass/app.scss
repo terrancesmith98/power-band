@@ -1,0 +1,20 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+// Variables
+@import 'utilities/variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Vendor Overrides
+@import 'vendor-overrides/bootstrap-overrides';
+
+@import 'base/typography';
+
+// Layout
+@import 'layout/main';
+
+// Pages
+@import 'pages/home';
