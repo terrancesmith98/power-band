@@ -3,16 +3,35 @@ body {
 }
 
 .logo {
-    max-width: 250px;
+    max-width: 220px;
     background: white;
-    padding: .5em 2em;
-    border-radius: 0 0 5px 5px;
+    padding: 0.5em 1em;
+    border-top: 2px solid $color-primary-blue;
+    border-radius: 0 0 15px 15px;
+    position: absolute;
+    z-index: 2;
+    left: 2em;
+    top: 1em;
+    &:before {
+        content: "";
+        background: $color-primary-red;
+        position: absolute;
+        top: -12px;
+        height: 1.1em;
+        width: 106%;
+        left: -6px;
+        border-top: 1px solid #ccc;
+    }
     img {
         max-width: 100%;
     }
     @media screen and (max-width: 550px){
         margin: 1em auto;
     }
+}
+
+#main-nav {
+    padding-left: 14em;
 }
 
 .navbar {
@@ -27,6 +46,10 @@ body {
     .dropdown-menu {
         background: darken($color-primary-red, 10%);
     }
+    li.nav-item.dropdown.active,
+    li.nav-item.active {
+        background: $color-primary-red;
+    }
 }
 
 .lead {
@@ -36,8 +59,20 @@ body {
 }
 
 .tile {
+    padding: 2em;
+    min-height: 80vh;
     p.lead {
         margin: 1em auto;
     }
 }
 
+.tile-dark-blue {
+    background: lighten($color-primary-blue, 5%);
+    color: whitesmoke;
+}
+
+footer {
+    background: #111;
+    padding: 2em;
+    color: #ccc;
+}

@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;900&display=swap);
 @charset "UTF-8";
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
@@ -10023,16 +10024,18 @@ h1 {
   display: block;
   width: 100%;
   font-size: 3em;
-  font-weight: 500;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 900;
   margin: 1em auto;
   letter-spacing: 1px;
 }
 
 h2 {
+  font-family: "Roboto Slab", sans-serif;
   width: 100%;
   text-align: center;
   font-size: 2.5em;
-  font-weight: 400;
+  font-weight: 500;
   margin: 1em auto;
 }
 
@@ -10041,10 +10044,25 @@ body {
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 220px;
   background: white;
-  padding: 0.5em 2em;
-  border-radius: 0 0 5px 5px;
+  padding: 0.5em 1em;
+  border-top: 2px solid #1b2c3b;
+  border-radius: 0 0 15px 15px;
+  position: absolute;
+  z-index: 2;
+  left: 2em;
+  top: 1em;
+}
+.logo:before {
+  content: "";
+  background: #661f1b;
+  position: absolute;
+  top: -12px;
+  height: 1.1em;
+  width: 106%;
+  left: -6px;
+  border-top: 1px solid #ccc;
 }
 .logo img {
   max-width: 100%;
@@ -10053,6 +10071,10 @@ body {
   .logo {
     margin: 1em auto;
   }
+}
+
+#main-nav {
+  padding-left: 14em;
 }
 
 .navbar {
@@ -10068,6 +10090,10 @@ body {
 .navbar .dropdown-menu {
   background: #3e1310;
 }
+.navbar li.nav-item.dropdown.active,
+.navbar li.nav-item.active {
+  background: #661f1b;
+}
 
 .lead {
   font-size: 1.5em;
@@ -10075,19 +10101,31 @@ body {
   max-width: 600px;
 }
 
+.tile {
+  padding: 2em;
+  min-height: 80vh;
+}
 .tile p.lead {
   margin: 1em auto;
 }
 
-#home-tile-1 {
-  padding: 0 4em 4em;
+.tile-dark-blue {
+  background: #23394c;
   color: whitesmoke;
-  background: #33536f;
-  font-size: 1.2em;
 }
-#home-tile-1 .lead {
-  min-width: 80vw;
-  padding: 0 15%;
+
+footer {
+  background: #111;
+  padding: 2em;
+  color: #ccc;
+}
+
+#home-tile-1 {
+  color: whitesmoke;
+  font-size: 1.4em;
+}
+#home-tile-1 ul#features-list {
+  width: 50vw;
 }
 
 #home-tile-2 {
@@ -10111,4 +10149,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#hwh-tile1 {
+  background: #23394c;
+  color: whitesmoke;
+  padding: 2em;
 }

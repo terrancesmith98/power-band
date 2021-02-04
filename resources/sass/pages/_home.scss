@@ -1,12 +1,9 @@
 
 #home-tile-1 {
-    padding: 0 4em 4em;
     color: whitesmoke;
-    background: lighten($color-primary-blue, 15%);
-    font-size: 1.2em;
-    .lead {
-        min-width: 80vw;
-        padding: 0 15%;
+    font-size: 1.4em;
+    ul#features-list {
+        width: 50vw;
     }
 }
 
