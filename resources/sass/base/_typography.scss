@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 1em;
 }
 
 h1  {
@@ -20,4 +21,16 @@ h2 {
     font-weight: 500;
     margin: 1em auto;
     
+}
+
+h3 {
+    font-family: $font-family-headings;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+p {
+    max-width: 70vw;
+    margin: 1em auto;
 }
