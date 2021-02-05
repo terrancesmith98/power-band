@@ -1,0 +1,23 @@
+.team-member-card {
+    display: flex;
+    justify-content: space-around;
+    max-width: 750px;
+    margin: 1em auto;
+    background: #ccc;
+    padding: 1em;
+    border-radius: 15px;
+    color: #333;
+    .member-image {
+        flex-basis: 1;
+    }
+    .member-content {
+        flex-basis: 2;
+        flex-grow: 2;
+        padding: .5em 1em;
+        .member-name {
+            font-weight: bold;
+            font-size: 1.5em;
+            color: $color-primary-blue;
+        }
+    }
+}
