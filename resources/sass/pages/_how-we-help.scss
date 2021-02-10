@@ -1,9 +1,12 @@
 #hwh-tile1 {
     background: lighten($color-primary-blue, 5%);
     color: whitesmoke;
-    padding: 2em;
 }
 
 #hwh-parallax1 {
     background-image: url('../images/soldier_with_dog.jpg');
+}
+
+#hwh-parallax2 {
+    background-image: url('../images/chopper.jpg');
 }

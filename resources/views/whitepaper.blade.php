@@ -2,7 +2,7 @@
 @section('title', 'STE | Whitepaper')
 
 @section('content')
-<div id="whitepaper-tile1" class="tile tile-dark-blue">
+<div id="whitepaper-tile1" class="tile tile-dark-blue tile-main">
     <h1 class="text-center">Our White Papers</h1>
     <p class="lead text-center">
         content

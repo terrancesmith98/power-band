@@ -2,9 +2,23 @@
 #home-tile-1 {
     color: whitesmoke;
     font-size: 1.4em;
+    h1 {
+        margin-bottom: .5em;
+    }
     ul#features-list {
         width: 50vw;
     }
+    .logo {
+        max-width: 450px;
+        background: white;
+        border-radius: 10px;
+        padding: .5em;
+        margin: 0;
+        img {
+            max-width: 100%;
+        }
+    }
+    
 }
 
 #home-tile-2 {

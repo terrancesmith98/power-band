@@ -65,6 +65,8 @@ Route::get('about-us/faqs', function(){
     return view('faqs');
 })->name('faqs');
 
+Route::get('subscribe', [App\Http\Controllers\NewsletterController::class, 'store'])->name('subscribe');
+
 Auth::routes();
 
 Route::middleware('auth')->group(function(){

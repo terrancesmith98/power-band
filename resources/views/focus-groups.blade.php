@@ -2,7 +2,7 @@
 @section('title', 'STE | Focus Groups')
 
 @section('content')
-<div id="focus-groups-tile1" class="tile tile-dark-blue">
+<div id="focus-groups-tile1" class="tile tile-dark-blue tile-main">
     <h1 class="text-center">Focus Groups</h1>
     <p class="lead text-center">
         content

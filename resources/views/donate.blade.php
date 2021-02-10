@@ -2,14 +2,16 @@
 @section('title', 'STE | Donate')
 
 @section('content')
-<div id="donate-tile1" class="tile-dark-blue tile">
+<div id="donate-tile1" class="tile-dark-blue tile tile-main">
     <h1 class="text-center">Donate to<br> Strength Through Education</h1>
-    <p class="text-center lead">content</p>
+    <p class="text-center lead">Please send all donations to:<br>
+    <address class="text-center">
+        Strength Through Education, Inc.<br>
+        PO Box 581<br>
+        Hammondsport, NY 14840
+    
+    </address></p>
 </div>
-<div class="parallax" id="donate-parallax"></div>
-<div class="tile" id="donate-tile2">
-    <h2>Secondary Heading</h2>
-    <p>Secondary content.</p>
-</div>
+
     
 @endsection

@@ -4,16 +4,12 @@
 @section('content')
 <div id="home-tile-1" class="tile tile-dark-blue">
 
-    <h1 class="text-center">Welcome to<br> Strength Through Education</h1>
-    <p class="lead">Strength Through Education, Inc. is a not-for-profit charity that was established October, 2019 based on a demonstrated need for service members to have “one-stop” access to:</p>
-    <div class="text-left px-5 mx-auto" id="features-list">
-        <p>-- Comprehensive information about policy and regulations</p>
-        <p>-- Templates to use for correspondence</p>
-        <p>-- Checklists with steps for resolving issues</p>
-        <p>-- Lists of pertinent outside resources</p>
-        <p>-- Personalized assistance with policy and regulations questions</p>
+    <h1 class="text-center">Welcome!</h1>
+    <div class="logo mx-auto">
+        <img src="../images/ste-logo-final.png" alt="">
     </div>
-
+    <p class="lead">Strength Through Education, Inc. is a not-for-profit charity that was established October, 2019 based on a demonstrated need for service members to have “one-stop” online access to information that is both comprehensive and comprehensible about policy and regulations.</p>
+    
 </div>
 <div id="home-parallax-1" class="parallax"></div>
 <div id="home-tile-2" class="tile">
@@ -25,8 +21,7 @@
 <div id="home-tile-3" class="tile">
     <div class="callout-text">
         <h2>Our Vision</h2>
-        <p class="text-center lead">Our armed forces are strengthened as all service members have access to
-            resources for a thriving career.</p>
+        <p class="text-center lead">Our Armed Forces are strengthened as all service members have access to resources that empower them to achieve mission and career success.</p>
     </div>
             
 </div>

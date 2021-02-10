@@ -2,7 +2,7 @@
 @section('title', 'STE | Blog')
 
 @section('content')
-<div id="blog-tile1" class="tile tile-dark-blue">
+<div id="blog-tile1" class="tile tile-dark-blue tile-main">
     <h1 class="text-center">Our Blog</h1>
     <p class="lead text-center">
         content

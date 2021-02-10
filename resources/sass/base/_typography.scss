@@ -31,6 +31,35 @@ h3 {
 }
 
 p {
-    max-width: 70vw;
+    max-width: 50vw;
     margin: 1em auto;
+}
+
+a,
+a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+dl {
+    max-width: 70vw;
+    dt {
+        &:before {
+            content: 'Q: ';
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-right: 1em;
+        }
+    }
+    dd {
+        &:before {
+            content: 'A: ';
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-right: 1em;
+        }
+    }
 }
