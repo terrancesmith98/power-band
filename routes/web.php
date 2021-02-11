@@ -33,6 +33,10 @@ Route::get('get-involved/newsletter', function(){
     return view('newsletter');
 })->name('newsletter');
 
+Route::get('our-research/articles', function(){
+    return view('articles');
+})->name('articles');
+
 Route::get('our-research/whitepaper', function(){
     return view('whitepaper');
 })->name('whitepaper');
