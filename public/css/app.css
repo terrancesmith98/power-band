@@ -10059,6 +10059,7 @@ a:visited {
 }
 a:hover,
 a:visited:hover {
+  color: #661f1b;
   text-decoration: underline;
 }
 
@@ -10394,6 +10395,7 @@ footer {
 }
 .btn-primary:hover {
   background: #131f2a;
+  color: whitesmoke !important;
 }
 
 /*# sourceMappingURL=app.css.map*/

@@ -4,5 +4,6 @@
     border: none;
     &:hover {
         background: darken($color-primary-blue, 5%);
+        color: whitesmoke !important;
     }
 }

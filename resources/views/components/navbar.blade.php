@@ -30,7 +30,7 @@
                       <a class="dropdown-item" href="{{route('newsletter')}}">Newsletter</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown {{request()->routeIs('whitepaper') || request()->routeIs('blog') || request()->routeIs('focus-groups') ? 'active' : ''}}">
+                <li class="nav-item dropdown {{request()->routeIs('whitepaper') || request()->routeIs('blog') || request()->routeIs('focus-groups') || request()->routeIs('articles') ? 'active' : ''}}">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Our Research
                     </a>
@@ -48,11 +48,11 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="{{route('who-we-are')}}">Who Are We</a>
                       <a class="dropdown-item" href="{{route('our-team')}}">Our Team</a>
-                      <a class="dropdown-item" href="{{route('newsroom')}}">Newsroom</a>
+                      {{-- <a class="dropdown-item" href="{{route('newsroom')}}">Newsroom</a> --}}
                       <a class="dropdown-item" href="{{route('faqs')}}">FAQs</a>
                     </div>
                 </li>
-                <li class="nav-item {{request()->routeIs('contact') ? 'active' : ''}}">
+                <li class="nav-item {{request()->routeIs('/contact') ? 'active' : ''}}">
                     <a href="{{route('contact.store')}}" class="nav-link">Contact</a>
                 </li>
             </ul>

@@ -14,7 +14,7 @@
                 <p class="author">Aubrey:</p>
                 <blockquote>Norms in the military are spelled out in regulations and standard operating procedures, but one toxic leader can redefine the norms of the organization. An organization’s response to a toxic leader sends a clear message about what the organization values.  Enabling organizations lack sufficient mechanisms to provide subordinates with opportunities to give leaders feedback or seek redress at higher levels.</blockquote>
                 <p class="reference">Aubrey, D.  <em>The Effects of Toxic Leadership</em>, Air War College, (2012), accessed September 8, 2017</p>
-                <a href="http://www.au.af.mil/au/awc/awcgate/army-usawc/aubrey_toxic_leadership.pdf" target="_blank" class="btn btn-primary btn-lg">Read More...</a>
+                <a href="https://apps.dtic.mil/dtic/tr/fulltext/u2/a560645.pdf" target="_blank" class="btn btn-primary btn-lg">Read More...</a>
             </div>
             <div class="article">
                 <p class="author">Gilberd:</p>

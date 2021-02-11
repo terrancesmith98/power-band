@@ -4,8 +4,8 @@
 @section('content')
 <div id="donate-tile1" class="tile-dark-blue tile tile-main">
     <h1 class="text-center">Donate to<br> Strength Through Education</h1>
-    <p class="text-center lead">Please send all donations to:<br>
-    <address class="text-center">
+    <h2 class="text-center">Please send all donations to:</h2>
+    <address class="text-center text-large">
         Strength Through Education, Inc.<br>
         PO Box 581<br>
         Hammondsport, NY 14840
