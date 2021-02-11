@@ -10111,6 +10111,10 @@ body {
   background: whitesmoke;
 }
 
+#app {
+  background: #ccc;
+}
+
 .logo {
   max-width: 220px;
   min-width: 150px;
@@ -10280,13 +10284,17 @@ footer {
 }
 
 #login-container,
-#register-container {
+#register-container,
+#password-reset-container,
+#password-email-container {
   min-height: 87vh;
 }
 
 #login-card,
-#register-card {
-  margin-top: 15vh;
+#register-card,
+#password-reset-card,
+#password-email-card {
+  margin-top: 20vh;
 }
 
 #donate-parallax {
@@ -10371,6 +10379,21 @@ footer {
 }
 #mc_embed_signup .button:hover {
   background-color: #23394c !important;
+}
+
+#contact-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.btn-primary {
+  background: #1b2c3b;
+  transition: all 0.2s ease-in-out;
+  border: none;
+}
+.btn-primary:hover {
+  background: #131f2a;
 }
 
 /*# sourceMappingURL=app.css.map*/

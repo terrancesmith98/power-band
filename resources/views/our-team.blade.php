@@ -41,7 +41,7 @@
             <div class="member-content">
                 <div class="member-name">Shelley Smith (Director of Operations)</div>
                 <div class="member-bio">
-                    <p>Bio content</p>
+                    <p>Shelley is a Life Coach specializing in leadership development and organizational culture.  She believes effective leadership inspires and motivates, builds dynamic teams, and cultivates new leaders.  Shelley has worked with individuals from a wide variety of ethnic and socio-economic backgrounds, to help them develop skills, overcome obstacles, and set and attain goals.  She holds a Bachelor’s degree in Psychology – Life Coaching, and is pursuing a Master’s degree in Organizational Leadership with a concentration in Nonprofit Management (anticipated graduation July, 2021).</p>
                 </div>
             </div>
         </div>

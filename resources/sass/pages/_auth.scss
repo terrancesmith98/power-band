@@ -1,9 +1,13 @@
 #login-container,
-#register-container {
+#register-container,
+#password-reset-container,
+#password-email-container {
     min-height: 87vh;
 }
 
 #login-card,
-#register-card {
-    margin-top: 15vh;
+#register-card,
+#password-reset-card,
+#password-email-card {
+    margin-top: 20vh;
 }

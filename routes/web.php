@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers;
 
 /*
 |--------------------------------------------------------------------------
@@ -49,9 +50,9 @@ Route::get('our-research/focus-groups', function(){
     return view('focus-groups');
 })->name('focus-groups');
 
-Route::get('contact', function(){
-    return view('contact');
-})->name('contact');
+// Route::get('contact', function(){
+//     return view('contact');
+// })->name('contact');
 
 Route::get('about-us/who-we-are', function(){
     return view('who-we-are');
@@ -69,7 +70,9 @@ Route::get('about-us/faqs', function(){
     return view('faqs');
 })->name('faqs');
 
-Route::get('subscribe', [App\Http\Controllers\NewsletterController::class, 'store'])->name('subscribe');
+Route::get('contact', [App\Http\Controllers\ContactUsFormController::class, 'createForm']);
+
+Route::post('contact', [App\Http\Controllers\ContactUsFormController::class, 'ContactUsForm'])->name('contact.store');
 
 Auth::routes();
 
