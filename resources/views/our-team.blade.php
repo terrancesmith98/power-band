@@ -55,7 +55,7 @@
             </div>
         </div>
         <div class="team-member-card">
-            <div class="member-image"><img class="dark-border" src="https://place-hold.it/150x225.jpg" alt=""></div>
+            <div class="member-image"><img class="dark-border" src="{{asset('images/michael-smith.JPG')}}" alt=""></div>
             <div class="member-content">
                 <div class="member-name">Michael Smith (Videographer)</div>
                 <div class="member-bio">
