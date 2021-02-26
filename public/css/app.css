@@ -10048,7 +10048,6 @@ h3 {
 }
 
 p {
-  max-width: 50vw;
   margin: 1em auto;
 }
 
@@ -10184,7 +10183,7 @@ body {
   margin: 0.5em;
   border: 1px solid whitesmoke;
   padding: 0.5em;
-  max-width: 500px;
+  max-width: 100%;
 }
 .tile img.dark-border {
   border: 1px solid #1b2c3b;
@@ -10218,6 +10217,21 @@ div.callout-text p {
 .tile-red {
   background: #661f1b;
   color: whitesmoke;
+}
+
+.tile-dark-blue a,
+.tile-red a {
+  color: whitesmoke;
+}
+.tile-dark-blue a:hover, .tile-dark-blue a:visited,
+.tile-red a:hover,
+.tile-red a:visited {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.tile-dark-blue a:hover,
+.tile-red a:hover {
+  text-decoration: underline;
 }
 
 footer {
@@ -10320,10 +10334,9 @@ footer {
   max-width: 250px;
 }
 .team-member-card .member-image {
-  flex-basis: 1;
+  margin: 0 auto;
 }
 .team-member-card .member-content {
-  flex-basis: 2;
   flex-grow: 2;
   padding: 0.5em 1em;
 }
@@ -10331,6 +10344,16 @@ footer {
   font-weight: bold;
   font-size: 1.5em;
   color: #1b2c3b;
+}
+@media screen and (max-width: 1000px) {
+  .team-member-card .member-content .member-name {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .team-member-card {
+    flex-direction: column;
+  }
 }
 
 .article {

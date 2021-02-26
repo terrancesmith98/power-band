@@ -11,16 +11,21 @@
         max-width: 250px;
     }
     .member-image {
-        flex-basis: 1;
+       margin: 0 auto;
     }
     .member-content {
-        flex-basis: 2;
         flex-grow: 2;
         padding: .5em 1em;
         .member-name {
             font-weight: bold;
             font-size: 1.5em;
             color: $color-primary-blue;
+            @media screen and (max-width: 1000px){
+                text-align: center;
+            }
         }
+    }
+    @media screen and (max-width: 1000px) {
+        flex-direction: column;
     }
 }

@@ -4,7 +4,7 @@
 @section('content')
 <div id="newsletter-tile1" class="tile-main tile tile-red">
     <h1 class="text-center">Sign Up For Our Newsletter</h1>
-    <div class="form col-sm-6 mx-auto">
+    <div class="form col-xl-6 col-lg-12 mx-auto">
         <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 

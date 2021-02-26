@@ -78,7 +78,7 @@ body {
         margin: .5em;
         border: 1px solid whitesmoke;
         padding: .5em;
-        max-width: 500px;
+        max-width: 100%;
         &.dark-border {
             border: 1px solid $color-primary-blue;
         }
@@ -113,6 +113,21 @@ div.callout-text {
 .tile-red {
     background: $color-primary-red;
     color: whitesmoke;
+}
+
+.tile-dark-blue,
+.tile-red {
+    a {
+        color: whitesmoke;
+        &:hover,
+        &:visited {
+            color: whitesmoke;
+            text-decoration: none;
+        }
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
 
 
