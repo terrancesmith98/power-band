@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Contact;
 use Mail;
+use App\Mail\Gmail;
 
 class ContactUsFormController extends Controller {
 
@@ -31,7 +32,7 @@ class ContactUsFormController extends Controller {
         $email = $request['email'];
 
         $details = [
-            'title' => 'Contact Form Submission from Strength Through Education',
+            'title' => $request['subject'],
             'body' => $request['message']
         ];
 
