@@ -23,9 +23,8 @@
 
 #home-tile-2 {
     padding: 3em;
-    background: rgba(204,204,204,.014);
-    color: $color-primary-red;
-    border-top: 2px solid white;
+    background: darken($color-primary-red, 10%);
+    color: whitesmoke;
     height: 500px;
 }
 

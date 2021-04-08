@@ -10195,6 +10195,13 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (hover: none) {
+  .parallax {
+    background-attachment: initial;
+  }
 }
 
 div.callout-text {
@@ -10264,9 +10271,8 @@ footer {
 
 #home-tile-2 {
   padding: 3em;
-  background: rgba(204, 204, 204, 0.014);
-  color: #661f1b;
-  border-top: 2px solid white;
+  background: #3e1310;
+  color: whitesmoke;
   height: 500px;
 }
 

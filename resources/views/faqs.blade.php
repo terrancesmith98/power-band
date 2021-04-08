@@ -13,7 +13,7 @@
             <dt class="col-sm-12">What do you do?</dt>
             <dd class="col-sm-12">We listen to your concern, do research on your problem (by reading the laws, regs and policies that apply to your situation), and we summarize our research in a way that is easy for you to use.</dd>
             <dt class="col-sm-12">Is this confidential?</dt>
-            <dd class="col-sm-12">We are 100% confidential.  We do not communicate with anyone but<strong> YOU.</strong>  We empower you with information, coaching and guidance, and <strong>YOU </strong> how to use and share that information.</dd>
+            <dd class="col-sm-12">We are 100% confidential.  We do not communicate with anyone but<strong> YOU.</strong>  We empower you with information, coaching and guidance, and <strong>YOU </strong>choose how to use and share that information.</dd>
         </dl>
     </p>
 </div>

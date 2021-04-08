@@ -32,21 +32,21 @@
                 </li>
                 <li class="nav-item dropdown {{request()->routeIs('whitepaper') || request()->routeIs('blog') || request()->routeIs('focus-groups') || request()->routeIs('articles') ? 'active' : ''}}">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Our Research
+                      Research
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{{route('articles')}}">Articles</a>
-                      {{-- <a class="dropdown-item" href="{{route('whitepaper')}}">Whitepaper</a>
-                      <a class="dropdown-item" href="{{route('blog')}}">Blog Posts</a>
+                        <a class="dropdown-item" href="{{route('articles')}}">Toxic Leadership</a>
+                        <a class="dropdown-item" href="{{route('whitepaper')}}">Whitepaper</a>
+                      {{-- <a class="dropdown-item" href="{{route('blog')}}">Blog Posts</a>
                       <a class="dropdown-item" href="{{route('focus-groups')}}">Focus Groups</a> --}}
                     </div>
                 </li>
                 <li class="nav-item dropdown {{request()->routeIs('who-we-are') || request()->routeIs('our-team') || request()->routeIs('newsroom') || request()->routeIs('faqs') ? 'active' : ''}}">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      About Us
+                      Our Organization
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="{{route('who-we-are')}}">Who Are We</a>
+                      <a class="dropdown-item" href="{{route('who-we-are')}}">About Us</a>
                       <a class="dropdown-item" href="{{route('our-team')}}">Our Team</a>
                       {{-- <a class="dropdown-item" href="{{route('newsroom')}}">Newsroom</a> --}}
                       <a class="dropdown-item" href="{{route('faqs')}}">FAQs</a>
