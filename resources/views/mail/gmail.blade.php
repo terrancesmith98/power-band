@@ -8,7 +8,11 @@
 </head>
 <body>
     <h1>{{$details['title']}}</h1>
-    <p>{{$details['body']}}</p>
+    <h3>You've received a Contact Form submission from:</h3>
+    <p>Name: {{$details['name']}}</p>
+    <p>Email: {{$details['email']}}</p>
+    <p>Phone: {{$details['phone']}}</p>
+    <p>Message: {{$details['body']}}</p>
 
     <p>Thank you.</p>
     

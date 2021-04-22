@@ -18,7 +18,7 @@ class Gmail extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($details)
     {
         $this->details = $details;
     }
@@ -31,7 +31,7 @@ class Gmail extends Mailable
     public function build()
     {
         return $this->subject('Mail from Strength Through Education')
-            ->view('emails.gmail')
+            ->view('mail.gmail')
             ->from('info@strengththroughedu.com');
     }
 }
