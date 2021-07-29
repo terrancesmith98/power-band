@@ -35,8 +35,8 @@
                       Research
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{{route('articles')}}">Toxic Leadership</a>
-                        <a class="dropdown-item" href="{{route('whitepaper')}}">Whitepaper</a>
+                        <a class="dropdown-item" href="{{route('toxic-leadership')}}">Toxic Leadership</a>
+
                       {{-- <a class="dropdown-item" href="{{route('blog')}}">Blog Posts</a>
                       <a class="dropdown-item" href="{{route('focus-groups')}}">Focus Groups</a> --}}
                     </div>
@@ -48,6 +48,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="{{route('who-we-are')}}">About Us</a>
                       <a class="dropdown-item" href="{{route('our-team')}}">Our Team</a>
+                      <a class="dropdown-item" href="{{route('military-advisory-committee')}}">Military Advisory Committee</a>
                       {{-- <a class="dropdown-item" href="{{route('newsroom')}}">Newsroom</a> --}}
                       <a class="dropdown-item" href="{{route('faqs')}}">FAQs</a>
                     </div>
@@ -66,7 +67,7 @@
                             <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                         </li>
                     @endif
-                    
+
                     @if (Route::has('register'))
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
@@ -77,7 +78,7 @@
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                             {{ Auth::user()->name }}
                         </a>
-                        
+
 
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="{{ route('logout') }}"
