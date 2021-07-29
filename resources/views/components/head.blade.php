@@ -6,7 +6,7 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
+    <link rel="shortcut icon" type="image/png" href="{{ URL::asset('favicon.png')}}">
     <title>@yield('title')</title>
 
     <!-- Scripts -->
