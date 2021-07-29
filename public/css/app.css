@@ -10322,6 +10322,14 @@ footer {
   background-image: url("../images/soldier_with_kids.jpg");
 }
 
+.paypal-container {
+  display: flex;
+  justify-content: center;
+}
+.paypal-container img {
+  border: none;
+}
+
 #wwa-parallax {
   background-image: url("../images/marines.jpg");
 }
