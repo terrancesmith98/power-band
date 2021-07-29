@@ -55,11 +55,20 @@
             </div>
         </div>
         <div class="team-member-card">
-            <div class="member-image"><img class="dark-border" src="{{asset('images/michael-smith.JPG')}}" alt=""></div>
+            <div class="member-image"><img class="dark-border" src="{{asset('images/Hannah.jpg')}}" alt=""></div>
             <div class="member-content">
-                <div class="member-name">Michael Smith (Videographer)</div>
+                <div class="member-name">Hannah Levey (Educational Consultant)</div>
                 <div class="member-bio">
-                    <p>Michael brings with him a deep passion for all things creative.  A recent graduate, Michael strives for excellence in every creative endeavor and is an accomplished musician and songwriter.</p>
+                    <p>Hannah holds her Bachelor’s degree in Teaching English to Speakers of Other Languages and her Master’s degree in Nonprofit Management. Working in education, she has co-written and designed curriculum and has overseen and implemented regulation policy changes ensuring that all stakeholders were provided with knowledgeable and insightful guidance. She is an advocate for her students and their families ensuring that they have equal access to and understanding of all educational facets. Her consulting experience has been both abroad and locally as she has supported organizations with needs based assistance. She is passionate about bridging education gaps so that all stakeholders are empowered with knowledge and can then advocate for themselves which supports the vision of Strength Through Education.</p>
+                </div>
+            </div>
+        </div>
+        <div class="team-member-card">
+            <div class="member-image"><img class="dark-border" src="{{asset('images/Kathleen.jpg')}}" alt=""></div>
+            <div class="member-content">
+                <div class="member-name">Kathleen Kressley  (Educational Consultant)</div>
+                <div class="member-bio">
+                    <p>Kathleen is an educator with 20 years experience. She holds a Bachelor’s degree in French Language and a Master’s degree in English Education. As both a high school English teacher and a Teacher to Speakers of Other Languages, Kathleen has diverse and expansive experience in curriculum development and design. Kathleen’s consulting experience encompasses both local and international collaborations, aiming to empower both educators and students. Leveraging education and seeking equitable opportunities for all individuals motivates Kathleen to consult for Strength Through Education.</p>
                 </div>
             </div>
         </div>
@@ -73,7 +82,7 @@
             </div>
         </div>
     </div>
-    
+
 </div>
-    
+
 @endsection
