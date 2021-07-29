@@ -8,6 +8,9 @@
             <p class="lead text-center">
                 <a href="{{asset('/docs/Toxic Leadership_ A Review of the Literature.pdf')}}" target="_blank"><img src="/images/pdf.svg" style="border:none;" width="75" alt=""> Toxic Leadership_ A Review of the Literature</a>
             </p>
+            <p class="lead text-center">
+                <a href="{{asset('/docs/White Paper_Combating_Toxic_Leadership_Through_Education_and_Empowerment.pdf')}}" target="_blank"><img src="/images/pdf.svg" style="border:none;" width="75" alt=""> White Paper on Toxic Leadership:  Strength Through Education Solutions</a>
+            </p>
         </div>
     <div class="tile tile-main tile-red">
 
