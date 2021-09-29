@@ -5,5 +5,6 @@
             @yield('content')
     </div>
 </body>
+
 <x-footer></x-footer>
 </html>
