@@ -1,9 +1,9 @@
-<nav class="navbar navbar-expand-lg shadow-sm navbar-dark" id="main-nav">
-    <div class="container">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mx-0 w-100">
+
         <a class="navbar-brand" href="{{ url('/') }}">
-            <div class="logo">
-                <img src="../images/ste-logo-full-white-alt1.svg" alt="Strength Through Education Logo">
-            </div>
+
+                <img src="/images/ampient-logo-white.svg" width="200" alt="">
+
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             <span class="navbar-toggler-icon"></span>
@@ -12,49 +12,14 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Left Side Of Navbar -->
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown {{request()->routeIs('how-we-help') ? 'active' : ''}}">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Programs &amp; Services
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="{{route('how-we-help')}}">How We Help</a>
-                    </div>
+                <li class="px-2 nav-item {{request()->is('contact') ? 'active' : ''}}">
+                    <a href="{{route('contact')}}" class="nav-link">Contact</a>
                 </li>
-                <li class="nav-item dropdown {{request()->routeIs('donate') || request()->routeIs('volunteer') || request()->routeIs('newsletter') ? 'active' : ''}}">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Get Involved
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="{{route('donate')}}">Donate</a>
-                      <a class="dropdown-item" href="{{route('volunteer')}}">Volunteer</a>
-                      <a class="dropdown-item" href="{{route('newsletter')}}">Newsletter</a>
-                    </div>
+                <li class="px-2 nav-item {{request()->is('music') ? 'active' : ''}}">
+                    <a href="{{route('music')}}" class="nav-link">Music</a>
                 </li>
-                <li class="nav-item dropdown {{request()->routeIs('whitepaper') || request()->routeIs('blog') || request()->routeIs('focus-groups') || request()->routeIs('articles') ? 'active' : ''}}">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Research
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{{route('toxic-leadership')}}">Toxic Leadership</a>
-
-                      {{-- <a class="dropdown-item" href="{{route('blog')}}">Blog Posts</a>
-                      <a class="dropdown-item" href="{{route('focus-groups')}}">Focus Groups</a> --}}
-                    </div>
-                </li>
-                <li class="nav-item dropdown {{request()->routeIs('who-we-are') || request()->routeIs('our-team') || request()->routeIs('newsroom') || request()->routeIs('faqs') ? 'active' : ''}}">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Our Organization
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="{{route('who-we-are')}}">About Us</a>
-                      <a class="dropdown-item" href="{{route('our-team')}}">Our Team</a>
-                      <a class="dropdown-item" href="{{route('military-advisory-committee')}}">Military Advisory Committee</a>
-                      {{-- <a class="dropdown-item" href="{{route('newsroom')}}">Newsroom</a> --}}
-                      <a class="dropdown-item" href="{{route('faqs')}}">FAQs</a>
-                    </div>
-                </li>
-                <li class="nav-item {{request()->routeIs('/contact') ? 'active' : ''}}">
-                    <a href="{{route('contact.store')}}" class="nav-link">Contact</a>
+                <li class="px-2 nav-item {{request()->is('video') ? 'active' : ''}}">
+                    <a href="{{route('video')}}" class="nav-link">Video Editing</a>
                 </li>
             </ul>
 
@@ -95,5 +60,5 @@
                 @endguest
             </ul> --}}
         </div>
-    </div>
+
 </nav>

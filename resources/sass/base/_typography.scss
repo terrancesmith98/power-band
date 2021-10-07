@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300&display=swap');
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
@@ -7,89 +9,40 @@ h1  {
     display: block;
     width: 100%;
     font-size: 3em;
-    font-family: $font-family-headings;
-    font-weight: 900;
+    font-weight: 500;
     margin: 1em auto;
     letter-spacing: 1px;
 }
 
 h2 {
-    font-family: $font-family-headings;
     width: 100%;
     text-align: center;
     font-size: 2.5em;
-    font-weight: 500;
+    font-weight: 300;
     margin: 1em auto;
-    
+
 }
 
 h3 {
-    font-family: $font-family-headings;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 2em;
 }
 
-p {
-    margin: 1em auto;
-}
+
 
 a,
 a:visited {
     color: whitesmoke;
     text-decoration: none;
     &:hover {
-        color: $color-primary-red;
         text-decoration: underline;
     }
-}
-
-dl {
-    max-width: 70vw;
-    dt {
-        &:before {
-            content: 'Q: ';
-            font-weight: bold;
-            font-size: 1.2em;
-            margin-right: 1em;
-        }
-    }
-    dd {
-        &:before {
-            content: 'A: ';
-            font-weight: bold;
-            font-size: 1.2em;
-            margin-right: 1em;
-        }
+    .active {
+        color: $info;
     }
 }
 
-blockquote {
-    font-size: 1.2em;
-    background: #f9f9f9;
-    border-left: 10px solid $color-primary-red;
-    quotes: "\201C""\201D""\2018""\2019";
-    padding: .5em 1.5em;
-    line-height: 1.4;
-    color: #333;
-    &:before,
-    &:after {
-        display: inline;
-        height: 0;
-        line-height: 0;
-        position: relative;
-        color: #333;
-        font-size: 3em;
-        font-family: ui-rounded;
-    }
-    &:before {
-        content: open-quote;
-        left: -10px;
-        top: 20px;   
-    }
-    &:after {
-        content: close-quote;
-        right: -10px;
-        top: 20px;
-    }
-}
+
+
+

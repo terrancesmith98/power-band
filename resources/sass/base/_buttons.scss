@@ -1,9 +1,0 @@
-.btn-primary {
-    background: $color-primary-blue;
-    transition: all .2s ease-in-out;
-    border: none;
-    &:hover {
-        background: darken($color-primary-blue, 5%);
-        color: whitesmoke !important;
-    }
-}

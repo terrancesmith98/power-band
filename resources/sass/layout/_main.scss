@@ -1,6 +1,6 @@
 body {
-    background: whitesmoke;
-    
+    background: #111;
+
 }
 
 #app {
@@ -14,131 +14,50 @@ body {
     position: relative;
     img {
         max-width: 100%;
-        
+
     }
 }
 
-#main-nav {
-    .container {
-        margin: 0;
-    }
+nav.navbar {
+    background: #222 !important;
+    border-bottom: 1px solid #ccc;
 }
 
-.navbar {
-    background: $color-primary-blue;
-    border-bottom: 2px solid white;
-    position: fixed;
-    width: 100vw;
-    z-index: 100;
-    a {
-        color: whitesmoke;
-        font-size: .9em;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
-    .dropdown-menu {
-        background: darken($color-primary-red, 10%);
-    }
-    li.nav-item.dropdown.active,
-    li.nav-item.active {
-        background: $color-primary-red;
-    }
+#image-container-1 {
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('/images/ampient-banner.png');
+    background-position: center 35%;
+    border-top: 2px solid #ccc;
 }
 
-.lead {
-    font-size: 1.2em;
-    font-weight: 300;
-    max-width: 80vw;
+#image-container-2 {
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('/images/coruscant.png');
+    background-position: center 50%;
 }
 
-.tile-main {
-    min-height: 80vh;
-
-}
-
-.tile {
-    padding: 2em;
-    p.lead {
-        margin: 1em auto;
-    }
-    ul {
-        list-style: none;
-        max-width: 750px;
-        margin: 1em auto;
-        li {
-            position: relative;
-            font-size: 1.2em;
-        }
-    }
-    &.tile-main {
-        padding-top: 5em;
-    }
-    img {
-        border-radius: 5px;
-        margin: .5em;
-        border: 1px solid whitesmoke;
-        padding: .5em;
-        max-width: 100%;
-        &.dark-border {
-            border: 1px solid $color-primary-blue;
-        }
-    }
-}
-
-.parallax {
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
+.image-container {
+    height: 35vh;
+    min-width: 100%;
     background-size: cover;
-    object-fit: cover;
-    @media (hover: none){
-        background-attachment: initial;
-    }
-}
-
-div.callout-text {
-    padding: 3em;
-    h2 {
-        font-size: 3.5em;
-        text-shadow: 0 1px #333;
-    }
-    p {
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
-}
-
-.tile-dark-blue {
-    background: lighten($color-primary-blue, 5%);
-    color: whitesmoke;
-}
-
-.tile-red {
-    background: $color-primary-red;
-    color: whitesmoke;
-}
-
-.tile-dark-blue,
-.tile-red {
-    a {
-        color: whitesmoke;
-        &:hover,
-        &:visited {
-            color: whitesmoke;
-            text-decoration: none;
-        }
-        &:hover {
-            text-decoration: underline;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #ccc;
+    .content-container {
+        padding: 2rem;
+        margin-left: 2rem;
+        video {
+            border: 1px solid #ccc;
+            box-shadow: 1px 1px 3px #333;
         }
     }
 }
 
+.text-container {
+    height: 100%;
+    color: white;
+    text-align: center;
+}
 
 
 footer {
-    background:$color-primary-blue;
-    padding: 2em;
+    background:#111;
     color: #ccc;
-    border-top: 2px solid whitesmoke;
 }
