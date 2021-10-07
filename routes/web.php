@@ -22,13 +22,10 @@ Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
 
-Route::get('/music', function () {
-    return view('music');
-})->name('music');
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
 
-Route::get('/video', function () {
-    return view('video');
-})->name('video');
 
 // Auth::routes();
 

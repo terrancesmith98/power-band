@@ -2,7 +2,7 @@
 
         <a class="navbar-brand" href="{{ url('/') }}">
 
-                <img src="/images/ampient-logo-white.svg" width="300" alt="">
+                <img src="/images/power-logo-metallic.png" width="150" alt="">
 
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -12,15 +12,14 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Left Side Of Navbar -->
             <ul class="navbar-nav mr-auto ml-3">
+                <li class="px-3 nav-item {{request()->is('about') ? 'active' : ''}}">
+                    <a href="{{route('about')}}" class="nav-link">About</a>
+                </li>
                 <li class="px-3 nav-item {{request()->is('contact') ? 'active' : ''}}">
                     <a href="{{route('contact')}}" class="nav-link">Contact</a>
                 </li>
-                <li class="px-3 nav-item {{request()->is('music') ? 'active' : ''}}">
-                    <a href="{{route('music')}}" class="nav-link">Music</a>
-                </li>
-                <li class="px-3 nav-item {{request()->is('video') ? 'active' : ''}}">
-                    <a href="{{route('video')}}" class="nav-link">Video Editing</a>
-                </li>
+
+
             </ul>
 
             <!-- Right Side Of Navbar -->

@@ -4,7 +4,7 @@
 @section('content')
 <div class="row no-gutters">
     <div class="col-12 p-5">
-        <h1>Contact Ampient</h1>
+        <h1>Contact Power Band</h1>
     </div>
 </div>
 

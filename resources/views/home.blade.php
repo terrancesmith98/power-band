@@ -1,39 +1,29 @@
 @extends('layouts.app')
-@section('title', 'Music By Ampient')
+@section('title', 'Power | Official Band Website')
 
 @section('content')
-<div class="row no-gutters">
-    <div class="col-12 d-flex align-items-center">
-        <div id="image-container-1" class="d-flex align-items-center justify-content-between image-container">
-            <div class="content-container">
-                <video src="/videos/america-for-americans.mp4" width="300" controls poster="/images/americans-poster.jpg"></video>
-            </div>
-            <div class="text-container p-3 w-100">
-                <h2>Original Soundtrack for Military Simulator</h2>
-                <p>This is my latest release for the popular Roblox game, "Military Simulator" by Vikinglaw.
-                </p>
-                <a href="https://www.youtube.com/watch?v=DT5iIA2ZeQk" target="blank"><i class="fab fa-youtube fa-3x"></i></a>
-            </div>
-        </div>
-    </div>
+<div class="row no-gutters main-content">
+    <div class="col-12 p-5">
+        <div class="border-light text-light">
+            <div class="d-flex justify-content-around align-items-center flex-wrap">
+                <div class="py-2 px-3">
+                    <h1 class="m-0">New Release!</h1>
+                    <p class="lead">Introducing our latest LP - End of the Age</p>
+                    <iframe style="border: 0; width: 350px; height: 753px;" src="https://bandcamp.com/EmbeddedPlayer/album=864321113/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://power.bandcamp.com/album/end-of-the-age">End of the Age by Power</a></iframe>
 
+                </div>
+                <div class="p-5">
+                    <h2>Content</h2>
+                </div>
 
-</div>
-<div class="row no-gutters">
-    <div class="col-12 d-flex align-items-center">
-        <div id="image-container-2" class="d-flex align-items-center justify-content-between image-container">
-            <div class="text-container p-3 w-100">
-                <h2>Roblox Coruscant Teaser Trailer</h2>
-                <p>This is the teaser trailer for the upcoming Roblox game, "Coruscant Revamp", by Vikinglaw.  I composed the original soundtrack for the trailer and gameplay.  I also recorded and edited all footage for the trailer.
-                </p>
-                <a href="https://www.youtube.com/watch?v=cbAL3xPlUE8" target="blank"><i class="fab fa-youtube fa-3x"></i></a>
-            </div>
-            <div class="content-container right">
-                <video src="/videos/Coruscant-Revamp-TeaserTrailer.mp4" width="300" controls poster="/images/coruscant-poster.jpg"></video>
             </div>
 
         </div>
     </div>
+
+
+
 </div>
+
 
 @endsection
