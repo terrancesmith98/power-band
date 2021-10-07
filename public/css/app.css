@@ -10108,6 +10108,10 @@ nav.navbar {
   border: 1px solid #ccc;
   box-shadow: 1px 1px 3px #333;
 }
+.image-container .right {
+  margin-left: unset;
+  margin-right: 2rem;
+}
 
 .text-container {
   height: 100%;

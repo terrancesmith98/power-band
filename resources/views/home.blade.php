@@ -28,7 +28,7 @@
                 </p>
                 <a href="https://www.youtube.com/watch?v=cbAL3xPlUE8" target="blank"><i class="fab fa-youtube fa-3x"></i></a>
             </div>
-            <div class="content-container">
+            <div class="content-container right">
                 <video src="/videos/Coruscant-Revamp-TeaserTrailer.mp4" width="300" controls></video>
             </div>
 
