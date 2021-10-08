@@ -10,6 +10,7 @@
                 <p style="margin: 0;">Connect with Power</p>
                 <ul>
                     <li><a href="https://www.facebook.com/powerbandofficialpage" target="blank"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                    <li><a href="https://power.bandcamp.com/" target="blank"><img src="/images/bandcamp.svg" width="29" style="transform:translateY(-7px);filter:grayscale(1);" alt=""></a></li>
                 </ul>
             </div>
         </div>

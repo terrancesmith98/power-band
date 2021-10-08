@@ -2,9 +2,9 @@
 @section('title', 'Contact Ampient')
 
 @section('content')
-<div class="row no-gutters">
+<div class="row no-gutters main-content">
     <div class="col-12 p-5">
-        <h1>Contact Power Band</h1>
+        <h1 class="text-light">Contact Power Band</h1>
     </div>
 </div>
 
