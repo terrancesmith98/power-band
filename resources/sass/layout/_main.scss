@@ -7,6 +7,10 @@ body {
     min-height: 80vh;
 }
 
+hr {
+    border-top: 1px solid #ccc;
+}
+
 .jumbotron-text {
     min-width: 500px;
 }
@@ -25,6 +29,11 @@ body {
 nav.navbar {
     background: #111 !important;
     border-bottom: 1px solid #ccc;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-size: 1.2rem;
 }
 
 .image-shadow {

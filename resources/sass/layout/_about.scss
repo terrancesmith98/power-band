@@ -4,6 +4,9 @@
         max-width: 45%;
         object-fit: contain;
         margin: .9rem;
+        @media screen and (max-width: 1422px) {
+            max-width: 100%;
+        }
 
     }
     .rounded-img {

@@ -16,7 +16,7 @@
                     <a href="{{route('about')}}" class="nav-link">About</a>
                 </li>
                 <li class="px-3 nav-item {{request()->is('contact') ? 'active' : ''}}">
-                    <a href="{{route('contact')}}" class="nav-link">Contact</a>
+                    <a href="{{route('contact.store')}}" class="nav-link">Contact</a>
                 </li>
 
 

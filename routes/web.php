@@ -18,9 +18,13 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/contact', function () {
-    return view('contact');
-})->name('contact');
+Route::get('contact', [App\Http\Controllers\ContactUsFormController::class, 'createForm']);
+
+Route::post('contact', [App\Http\Controllers\ContactUsFormController::class, 'ContactUsForm'])->name('contact.store');
+
+// Route::get('/contact', function () {
+//     return view('contact');
+// })->name('contact');
 
 Route::get('/about', function () {
     return view('about');
