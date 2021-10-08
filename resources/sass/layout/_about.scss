@@ -1,0 +1,13 @@
+.about-images-container {
+    max-width: 100%;
+    img {
+        max-width: 45%;
+        object-fit: contain;
+        margin: .9rem;
+
+    }
+    .rounded-img {
+        border-radius: 25px;
+        border: 1px solid #ccc;
+    }
+}

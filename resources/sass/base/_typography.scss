@@ -56,6 +56,21 @@ p {
     font-weight: 100;
 }
 
+p.song-title {
+    font-size: 1.2rem;
+    color: $primary;
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+p.credit {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+span.credit-details {
+    font-style: italic;
+    margin-left: .5rem;
+}
 
 
 

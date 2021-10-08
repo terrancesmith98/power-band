@@ -10,6 +10,8 @@
     <title>@yield('title')</title>
 
     <!-- Scripts -->
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.jplayer.min.js"></script>
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Fonts -->

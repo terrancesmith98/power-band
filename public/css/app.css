@@ -10059,6 +10059,23 @@ p {
   font-weight: 100;
 }
 
+p.song-title {
+  font-size: 1.2rem;
+  color: #84b6ff;
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
+
+p.credit {
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+span.credit-details {
+  font-style: italic;
+  margin-left: 0.5rem;
+}
+
 body {
   background: #333;
 }
@@ -10103,6 +10120,20 @@ footer ul {
 footer ul li {
   display: inline-block;
   padding-right: 0.3rem;
+}
+
+.about-images-container {
+  max-width: 100%;
+}
+.about-images-container img {
+  max-width: 45%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 0.9rem;
+}
+.about-images-container .rounded-img {
+  border-radius: 25px;
+  border: 1px solid #ccc;
 }
 
 /*# sourceMappingURL=app.css.map*/
