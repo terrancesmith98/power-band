@@ -10,7 +10,7 @@
         <p>Nearly 25 years later, Adam Oplinger, Josh Smith and Terry Smith reunited to create a new release under the name <em>Time Thief</em>, the title of their earliest releases with Players Club.</p>
         <p>Today, Josh and Terry Smith are writing under the name Power, offering a faith-based, rock and blues influenced musical message of hope and a future.</p>
     </div>
-    <div class="col-4 d-flex flex-column align-items-center justify-content-center p-3">
+    <div class="col-4 d-flex flex-column align-items-center justify-content-center p-5">
         <img class="mw-100" src="/images/mi-cassette.png" alt="">
         <img class="mw-100" src="/images/mi-pc-cassette.png" alt="">
     </div>
