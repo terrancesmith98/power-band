@@ -44,6 +44,7 @@
                     <p><strong class="text-primary">Seed of the Creator</strong><br>
                         Josh Smith: Lead vocals, backing vocals, keyboards, drums<br>
                         Terry Smith: Bridge vocals, backing vocals, guitars</p>
+                        <p class="info">All words, music, arrangements, recording and mastering by Josh Smith and Terry Smith (Virtual Reality: Words and Music by Adam Oplinger, Josh Smith and Terry Smith</p>
 
                 </div>
 
