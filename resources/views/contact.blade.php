@@ -1,5 +1,5 @@
 @extends('layouts/app')
-@section('title', 'Contact Ampient')
+@section('title', 'Contact Power')
 
 @section('content')
 <div class="row no-gutters main-content">
